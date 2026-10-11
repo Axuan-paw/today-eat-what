@@ -2,7 +2,7 @@
 const fs = require('fs');
 const vm = require('vm');
 
-const html = fs.readFileSync('D:/projects/today-eat-what/index.html', 'utf8');
+const html = fs.readFileSync('D:/projects/today-eat-what/frontend/index.html', 'utf8');
 const m = html.match(/<script>([\s\S]*?)<\/script>/);
 if (!m) { console.error('未找到 script 块'); process.exit(1); }
 const code = m[1];
