@@ -28,3 +28,6 @@ __pycache__/
 *.pyc
 # pip 在 Windows 下偶尔留在当前目录的临时料
 pip-*/
+
+# genui 技能生成的临时网页（约 5.9 MB，不进库）
+genui.html
